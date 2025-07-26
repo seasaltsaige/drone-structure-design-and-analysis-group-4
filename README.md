@@ -30,7 +30,7 @@ ___
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/seasaltsaige/drone-structure-design-and-analysis-group-4
-   cd drone-payload-sim
+   cd drone-structure-design-and-analysis-group-4
    ```
 2. **Open Simulink Model:**
 

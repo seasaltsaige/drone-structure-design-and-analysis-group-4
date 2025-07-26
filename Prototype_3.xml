@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/22/25||20:04:07" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.0.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Drone(truss_1)" uid="Drone(truss_1)" version="196">
+<AssemblyFile name="Drone(truss_1).SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Drone motor-2" uid="Drone motor-2" entityUid="Drone motor*:*Default">
+<Transform>
+<Rotation>0.86602540378443649 -0.500000000000004 0 0 0 -1 0.50000000000000389 0.8660254037844366 0</Rotation>
+<Translation>-7.1227524844896806e-07 0.0095249999999999866 -0.30519648803985738</Translation>
+</Transform>
+</Instance>
+<Instance name="DRONE-FRAME-LIGHT-CUT-1" uid="DRONE-FRAME-LIGHT-CUT-1" grounded="true" entityUid="DRONE-FRAME-LIGHT-CUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone fin cap-1" uid="Drone fin cap-1" entityUid="Drone fin cap*:*Default">
+<Transform>
+<Rotation>-0.54458634018726992 0 -0.83870478601319265 0 -1 0 -0.83870478601319265 0 0.54458634018726992</Rotation>
+<Translation>0.30519648803985738 -0.055244999999999989 -7.1227525161393949e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone Legs-1" uid="Drone Legs-1" entityUid="Drone Legs*:*Default">
+<Transform>
+<Rotation>1 0 -1.3877787807814457e-16 0 -1 0 -1.3877787807814457e-16 0 -1</Rotation>
+<Translation>-0.057149999999999979 0.038099999999999995 -0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="package holder-1" uid="package holder-1" entityUid="package holder*:*Default">
+<Transform>
+<Rotation>2.6124255799287991e-16 0 -1 0 1 0 1 0 2.6124255799287991e-16</Rotation>
+<Translation>0.022225000000000016 0.20549979193568438 -0.11507372262581136</Translation>
+</Transform>
+</Instance>
+<Instance name="package holder-2" uid="package holder-2" entityUid="package holder*:*Default">
+<Transform>
+<Rotation>2.6124255799287991e-16 0 -1 0 1 0 1 0 2.6124255799287991e-16</Rotation>
+<Translation>-0.028574999999999979 0.20549979193568441 -0.11507372262581134</Translation>
+</Transform>
+</Instance>
+<Instance name="Propellor-1" uid="Propellor-1" entityUid="Propellor*:*Default">
+<Transform>
+<Rotation>0.9957417387129035 0 -0.092186711542411925 0 1 0 0.092186711542411925 0 0.9957417387129035</Rotation>
+<Translation>0.30519648803985755 -0.047625000000000001 -7.1227525165386968e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone motor-1" uid="Drone motor-1" entityUid="Drone motor*:*Default">
+<Transform>
+<Rotation>1 -1.0658141036401503e-14 0 0 0 -0.99999999999999967 1.0658141036401503e-14 1 0</Rotation>
+<Translation>0.30519648803985744 0.0095250000000000005 -7.1227525161310368e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone Legs-2" uid="Drone Legs-2" entityUid="Drone Legs*:*Default">
+<Transform>
+<Rotation>-1 0 -1.1102230246251565e-16 0 -1 0 -1.1102230246251565e-16 0 1</Rotation>
+<Translation>0.057149999999999999 0.038099999999999995 0.063500000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="Propellor-4" uid="Propellor-4" entityUid="Propellor*:*Default">
+<Transform>
+<Rotation>0.79999999999999905 0 0.60000000000000142 0 1.0000000000000002 0 -0.60000000000000142 0 0.79999999999999893</Rotation>
+<Translation>7.1227525056092073e-07 -0.047624999999999973 0.30519648803985744</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone fin cap-4" uid="Drone fin cap-4" entityUid="Drone fin cap*:*Default">
+<Transform>
+<Rotation>0.39179333520995024 0 -0.92005324980952252 0 -1 0 -0.92005324980952252 0 -0.39179333520995024</Rotation>
+<Translation>-0.30519648803985744 -0.055244999999999995 7.1227525171263344e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone motor-3" uid="Drone motor-3" entityUid="Drone motor*:*Default">
+<Transform>
+<Rotation>0.86602540378443615 -0.50000000000000389 0 0 1.2254175891313502e-16 -0.99999999999999989 0.500000000000004 0.86602540378443638 0</Rotation>
+<Translation>-0.30519648803985749 0.0095250000000000022 7.1227525161310368e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Propellor-2" uid="Propellor-2" entityUid="Propellor*:*Default">
+<Transform>
+<Rotation>-0.23152527998802772 0 0.97282888769118359 0 1 0 -0.97282888769118359 0 -0.23152527998802772</Rotation>
+<Translation>-7.1227524913591855e-07 -0.047624999999999973 -0.30519648803985744</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone motor-4" uid="Drone motor-4" entityUid="Drone motor*:*Default">
+<Transform>
+<Rotation>0.86602540378443649 -0.50000000000000377 0 0 0 -1 0.50000000000000366 0.86602540378443649 0</Rotation>
+<Translation>7.1227525054451402e-07 0.0095249999999999987 0.30519648803985749</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone fin cap-3" uid="Drone fin cap-3" entityUid="Drone fin cap*:*Default">
+<Transform>
+<Rotation>-0.83203330959178934 0 -0.55472567249923987 0 -1 0 -0.55472567249923976 0 0.83203330959178934</Rotation>
+<Translation>7.1227525055993647e-07 -0.055245000000000009 0.30519648803985744</Translation>
+</Transform>
+</Instance>
+<Instance name="Propellor-3" uid="Propellor-3" entityUid="Propellor*:*Default">
+<Transform>
+<Rotation>-0.22448523606415 0 0.97447749013983043 0 1 0 -0.97447749013983043 0 -0.22448523606415</Rotation>
+<Translation>-0.30519648803985733 -0.047625000000000015 7.1227525152289806e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone fin cap-2" uid="Drone fin cap-2" entityUid="Drone fin cap*:*Default">
+<Transform>
+<Rotation>-0.69288636482103083 0 -0.72104679837379337 0 -1 0 -0.72104679837379326 0 0.69288636482103083</Rotation>
+<Translation>-7.1227524842007195e-07 -0.055244999999999989 -0.30519648803985744</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-0.057149999999999992 0.030479999999999997 -0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0 -0.0050800000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.057150000000000006 0.030479999999999997 -0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.1143 -0.0050800000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.057150000000000006 0.030479999999999997 -0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.1143 0.0076199999999999983 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.057150000000000006 0.030479999999999997 0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone Legs-2</Uid>
+</InstancePath>
+<Position>0 -0.0050800000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-0.057149999999999992 0.030479999999999997 0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone Legs-2</Uid>
+</InstancePath>
+<Position>0.1143 -0.0050800000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.057150000000000006 0.030479999999999997 0.063500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone Legs-2</Uid>
+</InstancePath>
+<Position>0.1143 0.0076199999999999983 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.30519648803985744 0.0095249999999999987 -7.1227525161697525e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999969</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>0.30519648803985744 0.0095249999999999987 -7.1227525161697525e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-7.1227524842021171e-07 0.0095249999999999987 -0.30519648803985744</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>0 0 0.044450000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-7.1227524842021171e-07 0.0095249999999999987 -0.30519648803985744</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-0.30519648803985744 0.0095249999999999987 7.1227525161697525e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999976</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>-0.30519648803985744 0.0095249999999999987 7.1227525161697525e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>7.1227525055138737e-07 0.0095249999999999987 0.30519648803985744</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DRONE-FRAME-LIGHT-CUT-1</Uid>
+</InstancePath>
+<Position>7.1227525055138737e-07 0.0095249999999999987 0.30519648803985744</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.06984999999999994</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Propellor-1</Uid>
+</InstancePath>
+<Position>0 -0.0094072018335049981 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999969</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-1</Uid>
+</InstancePath>
+<Position>0 0.012700000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Propellor-2</Uid>
+</InstancePath>
+<Position>0 -0.0094072018335049981 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>0 0 0.044450000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-2</Uid>
+</InstancePath>
+<Position>0 0.012700000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999968</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Propellor-3</Uid>
+</InstancePath>
+<Position>0 -0.0094072018335049981 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999976</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-3</Uid>
+</InstancePath>
+<Position>0 0.012700000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Propellor-4</Uid>
+</InstancePath>
+<Position>0 -0.0094072018335049981 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>0 0 0.044449999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-4</Uid>
+</InstancePath>
+<Position>0 0.01270000000000001 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone fin cap-1</Uid>
+</InstancePath>
+<Position>0 0.0050800000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.06984999999999994</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone fin cap-1</Uid>
+</InstancePath>
+<Position>0.0096519999999999939 -0.0076200000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone fin cap-2</Uid>
+</InstancePath>
+<Position>0 0.0050800000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone fin cap-2</Uid>
+</InstancePath>
+<Position>0.0096519999999999939 -0.0076200000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone fin cap-3</Uid>
+</InstancePath>
+<Position>0 0.0050800000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone fin cap-3</Uid>
+</InstancePath>
+<Position>0.0096519999999999939 -0.0076200000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>0 0 0.069849999999999968</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Drone fin cap-4</Uid>
+</InstancePath>
+<Position>0 0.0050800000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propellor-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone fin cap-4</Uid>
+</InstancePath>
+<Position>0.0096520000000000078 -0.0076199999999999948 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.0095250000000000057 -0.16993979193568437 -0.0050800000000000289</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-2</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.028575000000000007 -0.16993979193568437 0.043902268117037943</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-2</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.02857500000000001 -0.16993979193568437 0.051573722625811322</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-2</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.0095250000000000057 -0.16993979193568437 -0.0050800000000000289</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-1</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.08572500000000001 -0.16993979193568437 0.051573722625811336</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-1</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 -0.0063500000000000015</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Drone Legs-1</Uid>
+</InstancePath>
+<Position>0.02857500000000001 -0.16993979193568437 0.051573722625811322</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>package holder-1</Uid>
+</InstancePath>
+<Position>0 0.0025399999999999867 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-2</Uid>
+</InstancePath>
+<Position>-0.00635000000000005 -0.010998522628062335 0.036829999999999995</Position>
+<Axis>-0.86602540378443649 0.500000000000004 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone(truss_1)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-3</Uid>
+</InstancePath>
+<Position>-0.0063500000000000778 -0.010998522628062363 0.036829999999999988</Position>
+<Axis>-0.86602540378443627 0.50000000000000366 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone(truss_1)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-4</Uid>
+</InstancePath>
+<Position>-0.0063500000000000223 -0.010998522628062335 0.036829999999999995</Position>
+<Axis>-0.86602540378443638 0.50000000000000389 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone(truss_1)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone motor-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.012699999999999999 0.036829999999999967</Position>
+<Axis>-1 1.0474444016529398e-14 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone(truss_1)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="DRONE-FRAME-LIGHT-CUT" uid="DRONE-FRAME-LIGHT-CUT*:*Default" version="411">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="DRONE-FRAME-LIGHT-CUT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.712576111703898</Mass>
+<CenterOfMass>2.4735665615816516e-05 0.012130402910621204 -1.7836643323761944e-05</CenterOfMass>
+<Inertia>0.040994056588455507 0.074750008273906696 0.041819052840910094 -1.6778557135209979e-06 -6.3969000048068864e-08 1.4510328760799364e-06</Inertia>
+</MassProperties>
+<GeometryFile name="DRONE-FRAME-LIGHT-CUT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Drone Legs" uid="Drone Legs*:*Default" version="190">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Drone Legs.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10901708403858588</Mass>
+<CenterOfMass>0.057144190246135373 -0.10734985568519172 0.036119608500752742</CenterOfMass>
+<Inertia>0.00042909763452713052 0.00027082885392463866 0.00065050232929645909 8.7816488626996965e-05 -2.0834771062904568e-08 6.8314052036123191e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Drone Legs_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Drone fin cap" uid="Drone fin cap*:*Default" version="112">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Drone fin cap.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0066060068841503226</Mass>
+<CenterOfMass>0 -0.00031518319758261126 0</CenterOfMass>
+<Inertia>2.8096925459832491e-07 3.0622118902297177e-07 2.8096925459832481e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Drone fin cap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Drone motor" uid="Drone motor*:*Default" version="120">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Drone motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12643666416729379</Mass>
+<CenterOfMass>0 0 0.0219047591737721</CenterOfMass>
+<Inertia>3.7741273637962871e-05 3.7741273637962871e-05 3.2485099590600528e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Drone motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Propellor" uid="Propellor*:*Default" version="142">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Propellor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047151097216990547</Mass>
+<CenterOfMass>0 0.0047524264397226313 0</CenterOfMass>
+<Inertia>0.00030586979835264686 0.00030979861543651465 5.051954658142336e-06 0 -1.9971657114675772e-05 0</Inertia>
+</MassProperties>
+<GeometryFile name="Propellor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="package holder" uid="package holder*:*Default" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="package holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0066067725928800015</Mass>
+<CenterOfMass>0.115062 0.0012700000000000001 -0.0031750000000000003</CenterOfMass>
+<Inertia>2.5752153494719053e-08 2.9178468637138482e-05 2.9159820525987134e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="package holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

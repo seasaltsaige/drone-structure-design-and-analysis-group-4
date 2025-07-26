@@ -23,7 +23,6 @@ ___
 #### Requirements
 - MATLAB R2025a or later
 - Simulink
-- Simscape Multibody
 - Simscape Multibody Link (for importing from SolidWorks)
 
 ### Running the Model

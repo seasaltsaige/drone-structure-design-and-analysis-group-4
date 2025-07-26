@@ -21,7 +21,7 @@ Our SolidWorks model showcases the design of a sturdy drone and implements a tru
 ___
 ### Interacting / Using this Project
 #### Requirements
-- MATLAB R2023b or later
+- MATLAB R2025a or later
 - Simulink
 - Simscape Multibody
 - Simscape Multibody Link (for importing from SolidWorks)
